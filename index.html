@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="Search_box">
+        <h2>🔍 Multi Search Engine</h2>
+        
+        <div class="engine-selector">
+            <label for="search-engine">Select Search Engine:</label>
+            <select id="search-engine">
+                <option value="youtube">YouTube</option>
+                <option value="google" selected>Google</option>
+                <option value="tiktok">TikTok</option>
+                <option value="ig">Instagram</option>
+            </select>
+        </div>
+
+        <form id="search-form" onsubmit="handleSearch(event)">
+            
+            <button type="submit" class="myButton">Search</button>
+            
+            <input 
+                class="input" 
+                type="text" 
+                id="search-query"
+                placeholder="Type to search..." 
+                required
+            >
+            
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
