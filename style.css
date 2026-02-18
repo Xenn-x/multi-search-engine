@@ -142,7 +142,7 @@ body {
    4. ENGINE SELECTOR (DROPDOWN)
    ========================================= */
 .engine-selector {
-    width: 20%;
+    width: 20vh;
     display: flex;
     flex-direction: column;
     gap: 10px;
